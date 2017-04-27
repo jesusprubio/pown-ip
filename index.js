@@ -8,6 +8,7 @@
 'use strict';
 
 const icanhazip = require('icanhazip');
+const logger = require('pown-logger');
 
 let pkgName = require('./package').name;
 
@@ -24,8 +25,6 @@ exports.yargs = {
   builder: {},
 
   handler: () => {
-    const logger = require('pown-logger');
-
     logger.title(pkgName);
 
     // eslint-disable-next-line new-cap
