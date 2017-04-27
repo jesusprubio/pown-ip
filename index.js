@@ -8,6 +8,7 @@
 'use strict';
 
 const icanhazip = require('icanhazip');
+
 let pkgName = require('./package').name;
 
 
@@ -29,8 +30,6 @@ exports.yargs = {
 
     // eslint-disable-next-line new-cap
     icanhazip.IPv4()
-    .then((res) => {
-      logger.result(res);
-    });
+    .then(res => logger.result(res));
   },
 };
