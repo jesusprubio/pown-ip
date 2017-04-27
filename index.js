@@ -16,7 +16,9 @@ pkgName = pkgName.slice(5);
 
 exports.yargs = {
   command: `${pkgName} [options]`,
-  describe: 'Get your external IP address in pown.js',
+  // TODO: Improve the engine to get it from the package.json
+  // to avoid to repeat the same in multiple places.
+  describe: 'Get your external IP address',
 
   builder: {},
 
