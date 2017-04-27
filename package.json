@@ -23,9 +23,8 @@
   "keywords": [
     "exploit",
     "framework",
-    "voip",
-    "sip",
-    "ami"
+    "ip",
+    "external"
   ],
   "author": "Jesús Pérez <jesusprubio@fsf.org>",
   "contributors": [],
