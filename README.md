@@ -23,34 +23,4 @@
 +---------------------------------------------+
 ```
 
-# pown-ext-ip
-
-[![Build Status](https://travis-ci.org/jesusprubio/pown-ext-ip.svg?branch=master)](https://travis-ci.org/jesusprubio/pown-ext-ip)
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/pownjs/Lobby)
-
-> Get your external IP address in pown.js.
-
-## Quickstart
-
-From the same directory as your project's package.json, install this module with the following command:
-
-```sh
-npm install pown-ext-ip --save
-```
-
-Once that's done, you can invoke pown credits like this:
-
-```sh
-POWN_ROOT=. /node_modules/.bin/pown ext-ip
-```
-
-If installed globally or as part of Pown.js distribution invoke like this:
-
-```sh
-pown ext-ip
-```
-
-## Developer guide
-
-Please check [this link](https://github.com/jesusprubio/dev-guide) before a contribution.
-
+DEPRECATED, PLEASE USE THIS: https://github.com/jesusprubio/pown-ip
