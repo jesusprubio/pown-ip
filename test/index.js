@@ -15,6 +15,7 @@ const handler = require('../').yargs.handler;
 test('should not throw', (assert) => {
   assert.plan(1);
 
+  // TODO: Add checks and more tests.
   handler();
   assert.ok(true);
 });

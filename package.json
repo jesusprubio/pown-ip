@@ -1,11 +1,10 @@
 {
-  "name": "pown-ext-ip",
-  "version": "0.1.3",
+  "name": "pown-ip",
+  "version": "0.1.0-beta.0",
   "description": "Pownage guaranteed",
   "main": "index.js",
   "scripts": {
-    "start": "POWN_ROOT=. pown ext-ip",
-    "ext-ip": "POWN_ROOT=./ pown ext-ip",
+    "ip": "POWN_ROOT=./ pown ip",
     "test": "tap test",
     "lint": "eslint .",
     "dep-ok": "depcheck --ignores=release-it",
@@ -18,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jesusprubio/pown-ext-ip.git"
+    "url": "https://github.com/jesusprubio/pown-ip.git"
   },
   "keywords": [
     "exploit",
@@ -39,8 +38,9 @@
     ]
   },
   "dependencies": {
+    "address": "^1.0.1",
     "icanhazip": "^1.0.3",
-    "pown-logger": "^0.1.0"
+    "pown-logger": "^0.1.2"
   },
   "devDependencies": {
     "depcheck": "^0.6.4",

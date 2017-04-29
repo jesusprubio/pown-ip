@@ -23,4 +23,34 @@
 +---------------------------------------------+
 ```
 
-DEPRECATED, PLEASE USE THIS: https://github.com/jesusprubio/pown-ip
+# pown-ip
+
+[![Build Status](https://travis-ci.org/jesusprubio/pown-ip.svg?branch=master)](https://travis-ci.org/jesusprubio/pown-ip)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/pownjs/Lobby)
+
+> Get info about your network interface in pown.js.
+
+## Quickstart
+
+From the same directory as your project's package.json, install this module with the following command:
+
+```sh
+npm install jesusprubio/pown-ip#0.1.0-beta.0 --save
+```
+
+Once that's done, you can invoke it like this:
+
+```sh
+POWN_ROOT=. /node_modules/.bin/pown ip
+```
+
+If installed globally or as part of Pown.js distribution invoke like this:
+
+```sh
+pown ip
+```
+
+## Developer guide
+
+Please check [this link](https://github.com/jesusprubio/dev-guide) before a contribution.
+
